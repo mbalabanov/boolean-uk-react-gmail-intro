@@ -1,21 +1,19 @@
-import './styles/app.css'
+import "./styles/app.css";
 
-import Header from './components/Header/Header'
-import Nav from './components/Nav/Nav'
-import Main from './components/Main/Main'
+import Header from "./components/Header/Header";
+import LeftMenu from "./components/LeftMenu/LeftMenu";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
     <div className="app">
-
       <Header />
 
-      <Nav />
+      <LeftMenu />
 
       <Main />
-
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

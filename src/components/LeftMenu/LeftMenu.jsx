@@ -1,4 +1,4 @@
-function Nav() {
+function LeftMenu() {
   return (
     <nav className="left-menu">
       <ul className="inbox-list">
@@ -21,4 +21,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default LeftMenu;
